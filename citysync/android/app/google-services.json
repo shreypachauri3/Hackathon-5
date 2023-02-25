@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "427808479977",
+    "project_id": "citysync-72be1",
+    "storage_bucket": "citysync-72be1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427808479977:android:a0ae3f2f9ac332c5bbee78",
+        "android_client_info": {
+          "package_name": "com.example.citysync"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427808479977-liicn53uoahrqqfes8qfvif73lqcmnub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs2O6maTWYj4aH1UH78mYCClXPTQ-0QBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427808479977-liicn53uoahrqqfes8qfvif73lqcmnub.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

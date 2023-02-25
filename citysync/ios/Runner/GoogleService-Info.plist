@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>427808479977-n12qggklj2t6jfq9bp536rgvdcugbp7n.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.427808479977-n12qggklj2t6jfq9bp536rgvdcugbp7n</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDMPv2UdQ7oyu7eOC9YYK4AWKt6LePr_sA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>427808479977</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.citysync</string>
+	<key>PROJECT_ID</key>
+	<string>citysync-72be1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>citysync-72be1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:427808479977:ios:ba12da3d5e5a5ee5bbee78</string>
+</dict>
+</plist>
