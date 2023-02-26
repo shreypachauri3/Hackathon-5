@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:citysync/SOS/Dashboard/Dashboard.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
@@ -11,6 +10,8 @@ class Splash extends StatefulWidget {
   @override
   _SplashState createState() => _SplashState();
 }
+
+
 
 class _SplashState extends State<Splash> {
   @override

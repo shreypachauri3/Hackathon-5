@@ -1,6 +1,7 @@
 import 'package:citysync/HS.dart';
 import 'package:citysync/SOS.dart';
 import 'package:citysync/SOS/Dashboard/Dashboard.dart';
+import 'package:citysync/Screens/bottom_bar.dart';
 import 'package:citysync/Screens/views/home.dart';
 import 'package:citysync/verify.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
@@ -50,7 +51,7 @@ print(fcmToken);
     if (user == null) {
       runApp(MyApp());
     } else if(user.phoneNumber!=null) {
-      runApp(MaterialApp(home: HomePage()));
+      runApp(MaterialApp(home: BottomBar()));
     }
     else{
       runApp( MaterialApp(home: Register()));

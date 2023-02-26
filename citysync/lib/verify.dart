@@ -19,7 +19,9 @@ class _RegisterState extends State<Register> {
     
     await FirebaseAuth.instance.verifyPhoneNumber(
   phoneNumber: country_code.text+phone_nos.text,
-  verificationCompleted: (PhoneAuthCredential credential) {},
+  verificationCompleted: (PhoneAuthCredential credential) {
+    Navigator.push(context, MaterialPageRoute(builder:(context) => BottomAppBar(),));
+  },
   verificationFailed: (FirebaseAuthException e) {print(e);},
   codeSent: (String verificationId, int? resendToken) {
      

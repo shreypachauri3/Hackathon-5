@@ -37,8 +37,7 @@ class HomePageState extends State<HomePage> {
         ),
         iconTheme: IconThemeData(color: Colors.black87),
       ),
-      drawer: Drawer(child: Container() // Populate the Drawer in the next step.
-          ),
+      
       body: SingleChildScrollView(
         child: Container(
           color: Colors.white,
@@ -144,8 +143,8 @@ class HomePageState extends State<HomePage> {
                     
                     borderRadius: BorderRadius.circular(10)
                   ),
-                  height: 55,
-                  child: Row(
+                  height: 120,
+                  child: Column(
                     children: [
                       SizedBox(
                         width:300,

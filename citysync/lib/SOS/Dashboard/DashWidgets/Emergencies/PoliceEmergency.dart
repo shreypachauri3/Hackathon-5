@@ -14,7 +14,7 @@ class PoliceEmergency extends StatelessWidget {
         ),
         child: InkWell(
           onTap: () {
-            _callNumber("15");
+            _callNumber("100");
           },
           child: Container(
             height: 180,
@@ -41,7 +41,7 @@ class PoliceEmergency extends StatelessWidget {
                       radius: 25,
                       child: Center(
                           child: Image.asset(
-                        "assets/icons/alert.png",
+                        "assets/icons/allert.png",
                         height: 35,
                       ))),
                   Expanded(
@@ -50,7 +50,7 @@ class PoliceEmergency extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          "Fuckin Emergency",
+                          "Police Emergency",
                           style: TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
@@ -73,7 +73,7 @@ class PoliceEmergency extends StatelessWidget {
                               borderRadius: BorderRadius.circular(300)),
                           child: Center(
                             child: Text(
-                              "0 -1 -0",
+                              "1 - 0 - 0",
                               style: TextStyle(
                                   color: Colors.red[300],
                                   fontWeight: FontWeight.bold,
